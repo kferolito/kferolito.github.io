@@ -4,12 +4,12 @@ document.write(`
 		<img src="images/header-icon.png" id="header-icon">
 		<h1 class="hidden">Kyle Ferolito, Software Developer</h1>
 		<nav id="navigation-secondary">
-			<ul class="secondary-bar">
+			<!-- <ul class="secondary-bar">
 				<li class="secondary-item"><a href="javascript:void(0)" class="secondary-link">Testing</a></li>
 				<li class="secondary-item"><a href="javascript:void(0)" class="secondary-link">Testing</a></li>
 				<li class="secondary-item"><a href="javascript:void(0)" class="secondary-link">Testing</a></li>
 				<li class="secondary-item"><a href="javascript:void(0)" class="secondary-link">Testing</a></li>
-			</ul>
+			</ul> -->
 		</nav>
 		<div id="github-div">
 			<a href="https://github.com/kferolito" target="_blank" class="git-link">Github Repository</a>
