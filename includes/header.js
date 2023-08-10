@@ -11,8 +11,17 @@ document.write(`
 				<li class="secondary-item"><a href="javascript:void(0)" class="secondary-link">Testing</a></li>
 			</ul> -->
 		</nav>
-		<div id="github-div">
-			<a href="https://github.com/kferolito" target="_blank" class="git-link">Github Repository</a>
+		<div id="links">
+			<div id="github-div">
+				<a href="https://github.com/kferolito" target="_blank" class="git-link">
+					<img id="github-icon" src="images/github-icon.png">
+				</a>
+			</div>
+			<div id="linkedin-div">
+				<a href="https://www.linkedin.com/in/kyle-ferolito-634596287" target="_blank" class="linkedin-link">
+					<img id="linkedin-icon" src="images/linkedin-icon.png">
+				</a>
+			</div>
 		</div>
 	</header>
 

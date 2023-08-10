@@ -126,24 +126,66 @@ body
 	border-right: 0.1em solid rgb(255, 255, 255);
 }
 
+#links
+{
+	padding-right: 2em;
+	width: fit-content;
+	display: flex;
+	justify-content: right;
+}
+
 #github-div
 {
 	display: flex;
-	width: 15%;
+	width: 7%;
 	align-items: center;
-	justify-content: right;
+	justify-content: center;
 }
 
 .git-link
 {
-	margin-right: 1em;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
 
-	font-size: 2.2em;
-	text-decoration: none;
-	color: rgb(255, 255, 255);
+#github-icon
+{
+	max-width: auto;
+	height: 100%;
+	transform: scale(0.7, 0.7);
+}
+
+#linkedin-div
+{
+	display: flex;
+	width: 7%;
+	align-items: center;
+	justify-content: center;
+}
+
+.linkedin-link
+{
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+#linkedin-icon
+{
+	max-width: auto;
+	height: 100%;
+	transform: scale(0.5, 0.5);
 }
 
 .git-link:hover
+{
+	color: #bbbbbb;
+}
+
+.linkedin-link:hover
 {
 	color: #bbbbbb;
 }
